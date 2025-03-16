@@ -1,5 +1,8 @@
+import json
+
 def main():
-    print("Hello, World!")
+    message = {"greeting": "Hello, World!"}
+    print(json.dumps(message))
 
 if __name__ == "__main__":
     main()
